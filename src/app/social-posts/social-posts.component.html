@@ -1,0 +1,4 @@
+
+<app-single-post *ngFor="let n of ListOfPosts"[DisplayPost]="n"></app-single-post>
+
+<app-post-form (PostCreated)="onSubmit($event)"></app-post-form>
